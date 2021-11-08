@@ -1,0 +1,18 @@
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+table {
+    border-spacing: 30px;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+table, th, td {
+    border: 1px solid rgb(250, 248, 248);
+}

@@ -35,7 +35,7 @@ class App extends Component{
     }
 
     addSong = async (song) => {
-        let response = await axios.post("http://127.0.0.1:8000/music/", song_form);
+        let response = await axios.post("http://127.0.0.1:8000/music/", song);
         let data = response.data;
         this.getSong()
     }
